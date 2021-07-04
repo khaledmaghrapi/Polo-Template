@@ -1,0 +1,94 @@
+/* global style*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+.paragraph-color{
+	color: #999
+}
+
+/* start navbar */
+
+.wrapper header{
+	position: relative;
+	z-index: 100 !important;
+	display: flex;
+}
+.wrapper header nav {
+	background-color: transparent !important;
+	position: absolute;
+	width: 100%;
+	display: flex;
+}
+header .navbar .navbar-brand{
+	color: #fff;
+}
+header .collapse{
+	display: flex;
+}
+header .collapse .navbar-nav{
+	justify-content: flex;
+}
+/* end navbar */
+
+
+.wrapper .carousel{
+	height: 450px;
+	background-color: black;
+	opacity: 3;
+}
+.wrapper .carousel .carousel-inner
+{
+	height: 450px;
+	opacity: .9
+}
+
+.define{
+	display: flex;
+	min-height: 300px;
+	padding: 30px;
+}
+.content{
+	display: 1;
+	flex-wrap:wrap; 
+}
+.comments{
+	display: 1;
+	flex-wrap:wrap; 
+}
+
+/*
+.our-work .row{
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.our-work .content h1{
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+.our-work .content p{
+	line-height: 200%;
+}
+.button{
+	padding-top: 100px
+}
+.button a{
+	border:1px solid #111;
+	border-radius: 20px;
+	color: #111;
+	padding: 10px 30px;
+	text-decoration: none;
+	box-shadow: 5px 5px 20px 5px #eee ;
+}
+.button a:hover{
+	background-color: #eee;
+	box-shadow: 5px 5px 20px 7px #eee;
+
+}
